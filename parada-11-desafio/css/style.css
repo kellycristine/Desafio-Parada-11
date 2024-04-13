@@ -1,0 +1,103 @@
+:root{
+    --color_01: #c3062c;
+    --color_02: #708066;
+    --c_white: #ffffff;
+    --c_gray: #8fa080;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-image: url("../image/22077337-chines-dragao-fantasia-fundo-asia-e-oriental-mitologico-criatura-ilustracao-para-chines-novo-ano-generativo-ai-foto.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+table{
+    background-color:  var(--c_white);
+    margin: 0 auto;
+    max-width: 1200px;
+    border-collapse: collapse;
+}
+#header_box img {
+    max-width: 100%;
+}
+#header_box h1{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+td img{
+    max-width: 100%;
+    height: auto;
+    
+}
+#nav_box{
+    background-color: var(--c_gray);
+    border-top: 8px solid var(--color_01);
+    padding: 10 0px;
+    height: 50px;
+}
+
+#nav_box ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#nav_box li{
+    display: inline;
+}
+
+#nav_box a{
+    padding: 10px;
+    text-decoration: none;
+    color: var(--c_white);
+}
+nav a:hover {
+    background-color: var(--color_02);
+}
+
+.ativo{
+    background-color: var(--color_01);
+    color: var(--c_white);
+}
+#nav_box a:hover:not(.ativo){
+    background-color: var(--color_02);
+    color: var(--c_white);
+    transition: 0.4s;
+}
+#image_box{
+    width: 100%;
+    height: auto;
+}
+
+.article_box{
+    background-color: var(--c_white);
+    padding: 20px;
+    margin-top: 20px;
+}
+.article_box p{
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: justify;
+}
+.article_box h2{
+    border-top: 8px solid var(--color_01);
+    background-color: var(--c_gray);
+    padding: 10px;
+}
+#footer_box{
+    border-top: 8px solid var(--color_01);
+    background-color: var(--c_gray);
+    text-align: center;
+    padding: 20px 0;
+}
